@@ -169,6 +169,8 @@ func (g *Game) Layout(_, _ int) (int, int) {
 
 // WSAD FH JK 手柄控制
 // R 重启 P 调整调色盘(调色盘不会实时更新需要使用P触发更新) M 运行模式切换 N debug运行时推动执行
+// https://www.bilibili.com/video/BV1Uv4y1v7T9
+// https://www.nesdev.org/wiki/Nesdev_Wiki
 
 func main() {
 	path := "roms/魂斗罗美版.nes"
